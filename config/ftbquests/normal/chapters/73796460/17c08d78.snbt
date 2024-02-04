@@ -1,0 +1,20 @@
+{
+	x: -9.0d,
+	y: -4.5d,
+	shape: "hexagon",
+	description: "Be sure to place them well",
+	text: [
+		"If things went correctly, you should have spawned with three items. A Mekanism Electric Pump, a Primitive Straining Machine, and an 8 Volt Solar Panel.",
+		"Some notes about these items, the electric pump takes NO electricity to run, the solar panel only works as a cover on the top side of the machine, and if you place them they'll be there for a while! since you need a wrench to pick them up.",
+		"The Electric Pump will auto-output from the top as well."
+	],
+	dependencies: [
+		"190f4c93"
+	],
+	tasks: [{
+		uid: "ccc8b295",
+		type: "checkmark",
+		title: "Your Starting Items",
+		icon: "gregtech:machine 1 30000"
+	}]
+}

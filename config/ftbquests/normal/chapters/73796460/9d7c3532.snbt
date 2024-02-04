@@ -1,0 +1,20 @@
+{
+	title: "Dirty Sand",
+	x: -7.5d,
+	y: -3.5d,
+	shape: "hexagon",
+	description: "Like dirt, but bad",
+	text: [
+		"Combine together silt to make a block of silt"
+	],
+	dependencies: [
+		"b85b4904"
+	],
+	tasks: [{
+		uid: "777c4321",
+		type: "item",
+		items: [{
+			item: "gregsea:siltblock"
+		}]
+	}]
+}

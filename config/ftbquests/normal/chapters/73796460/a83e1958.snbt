@@ -1,0 +1,37 @@
+{
+	title: "We're Rich!",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "fertilizerfluid",
+			Amount: 1000
+		}
+	},
+	x: -6.5d,
+	y: -3.5d,
+	shape: "hexagon",
+	description: "(In Nutrients)",
+	text: [
+		"Silt and sand are, ultimately, made of some pretty useful growing materials, perhaps if you put them together you'll get something good for growing!",
+		"Since you don't have the profound technology of \"buckets\" yet, this quest just asks for the components."
+	],
+	dependencies: [
+		"9d7c3532"
+	],
+	tasks: [{
+		uid: "3294241b",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		count: 2L
+	},
+	{
+		uid: "d9110d95",
+		type: "item",
+		items: [{
+			item: "gregsea:siltblock"
+		}],
+		count: 2L
+	}]
+}

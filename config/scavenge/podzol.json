@@ -1,0 +1,44 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "Podzol",
+			"type":
+			{
+				"type": "block",
+				"name": "minecraft:dirt",
+				"meta": 2
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+			    {
+            "type": "per_block_limit",
+            "max": 4,
+			"min": 4
+				},
+			],
+			"drops":
+			[
+				{
+					"name": "gregsea:soil",
+					"disableJEI": false,
+					"chance": 100
+				},
+				{
+					"name": "gregsea:sediment",
+					"disableJEI": false,
+					"chance": 20
+				},
+				{
+					"name": "minecraft:stick",
+					"disableJEI": false,
+					"chance": 20
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Fundamental Resources",
+	icon: "gregsea:sand",
+	x: -8.0d,
+	y: -4.5d,
+	shape: "hexagon",
+	description: "Gotta Start From Somewhere",
+	text: [
+		"Run the Primitive Straining Machine, and get some very basic materials! "
+	],
+	dependencies: [
+		"17c08d78"
+	],
+	tasks: [{
+		uid: "77bde6f0",
+		type: "item",
+		items: [{
+			item: "gregsea:sand"
+		}]
+	},
+	{
+		uid: "b669c83a",
+		type: "item",
+		items: [{
+			item: "gregsea:silt"
+		}]
+	},
+	{
+		uid: "884b1dff",
+		type: "item",
+		items: [{
+			item: "gregsea:sediment"
+		}]
+	},
+	{
+		uid: "22364edd",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}]
+	}]
+}

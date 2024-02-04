@@ -1,0 +1,16 @@
+item.gregsea.sand.name=Sand
+item.gregsea.silt.name=Silt
+item.gregsea.soil.name=Soil
+item.gregsea.sediment.name=Sediment
+
+tile.gregsea.siltblock.name=Silt
+
+fluid.gregsea.fertilizerfluid.name=Nutrient Rich Water
+
+gregtech.machine.strainer.ulv.name=Primitive Straining Machine
+gregtech.machine.strainer.lv.name=Basic Straining Machine
+gregtech.machine.strainer.mv.name=Advanced Straining Machine
+gregtech.machine.strainer.hv.name=Advanced Straining Machine II
+gregtech.machine.strainer.ev.name=Advanced Straining Machine III
+
+recipemap.STRAINER.name=Strainer

@@ -1,0 +1,22 @@
+{
+	title: "Building Outwards",
+	icon: "minecraft:sand",
+	x: -7.0d,
+	y: -4.5d,
+	shape: "hexagon",
+	description: "Less Annoying To Access",
+	text: [
+		"Most of the sand in this world is underwater. Thats no fun to get. Craft sand using sand you got from your strainer."
+	],
+	dependencies: [
+		"b85b4904"
+	],
+	tasks: [{
+		uid: "0ac6f620",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		count: 32L
+	}]
+}

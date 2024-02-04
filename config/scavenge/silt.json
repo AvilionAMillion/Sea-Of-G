@@ -1,0 +1,48 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "Silt",
+			"type":
+			{
+				"type": "block",
+				"name": "gregsea:siltblock"
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+			    {
+            "type": "per_block_limit",
+            "max": 4,
+			"min": 4
+				},
+			],
+			"drops":
+			[
+				{
+					"name": "gregsea:silt",
+					"disableJEI": false,
+					"chance": 50
+				},
+				{
+					"name": "gregsea:soil",
+					"disableJEI": false,
+					"chance": 20
+				},
+				{
+					"name": "gregsea:sediment",
+					"disableJEI": false,
+					"chance": 20
+				},
+				{
+					"name": "minecraft:clay_ball",
+					"disableJEI": false,
+					"chance": 10
+				}
+			]
+		}
+	]
+}

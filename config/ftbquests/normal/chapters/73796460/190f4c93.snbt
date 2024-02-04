@@ -1,0 +1,23 @@
+{
+	x: -10.0d,
+	y: -6.0d,
+	shape: "hexagon",
+	description: "Ocean for miles and miles",
+	text: [
+		"Welcome to Sea of G! A Gregtech modpack inspired off of Factorio's \"Seablock\"! This pack is intended on being an expert pack, with many recipe changes allowing you to reach the end game on nothing more than this tiny block of sand.",
+		"This quest book should help get you through a lot of the major game beats, a lot of things are different, so good luck!"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "5403ba40",
+		type: "checkmark",
+		title: "Welcome!",
+		icon: "minecraft:sand"
+	}],
+	rewards: [{
+		uid: "b14abeb7",
+		type: "item",
+		item: "minecraft:bread",
+		count: 16
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Neanderthal Metallurgy",
+	x: -8.5d,
+	y: -3.5d,
+	shape: "hexagon",
+	description: "Something to do with that sediment",
+	text: [
+		"Make gravel out of sediment, will be used for ores later"
+	],
+	dependencies: [
+		"b85b4904"
+	],
+	tasks: [{
+		uid: "e1033c5a",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}]
+	}]
+}

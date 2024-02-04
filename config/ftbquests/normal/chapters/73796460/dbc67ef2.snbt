@@ -1,0 +1,29 @@
+{
+	title: "Making Your First Dirt",
+	icon: "minecraft:dirt",
+	x: -7.0d,
+	y: -2.5d,
+	shape: "hexagon",
+	description: "Easier than in some packs",
+	text: [
+		"Dirt! In order to obtain this lovely and vital resource, you have to sift through silt with your bare hands. Just shift-right clicking will do",
+		"Doing that you'll get some soil, which you can combine into Dirt! You'll also get some silt and sediment too."
+	],
+	dependencies: [
+		"9d7c3532"
+	],
+	tasks: [{
+		uid: "7ca37330",
+		type: "item",
+		items: [{
+			item: "gregsea:soil"
+		}]
+	},
+	{
+		uid: "f9d88255",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}]
+	}]
+}
