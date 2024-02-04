@@ -8,7 +8,7 @@ inWorldCrafting.fluidToItem.recipeBuilder()
 // Nutrient Rich Water
 inWorldCrafting.fluidToFluid.recipeBuilder()
         .fluidInput(fluid('water'))
-        .input(item('minecraft:sand') * 2, item('gregsea:siltblock') * 2)
+        .input(item('minecraft:sand') * 2, item('gregsea:siltblock'), item('minecraft:clay_ball'))
         .fluidOutput(fluid('fertilizerfluid'))
         .register()
 
