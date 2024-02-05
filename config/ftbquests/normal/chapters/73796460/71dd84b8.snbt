@@ -1,0 +1,21 @@
+{
+	title: "The End Of The Boring Part",
+	x: -7.0d,
+	y: -0.5d,
+	shape: "hexagon",
+	description: "Wood makes everything more exciting",
+	text: [
+		"After living off of nothing but sand for so long, finally you can make a sapling and start getting wood!",
+		"Twerk is in the pack, so you can at least grow trees faster."
+	],
+	dependencies: [
+		"e044fd50"
+	],
+	tasks: [{
+		uid: "f4e1333f",
+		type: "item",
+		items: [{
+			item: "minecraft:sapling"
+		}]
+	}]
+}

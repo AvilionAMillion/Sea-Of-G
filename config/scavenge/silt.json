@@ -25,7 +25,7 @@
 				{
 					"name": "gregsea:silt",
 					"disableJEI": false,
-					"chance": 50
+					"chance": 70
 				},
 				{
 					"name": "gregsea:soil",

@@ -1,0 +1,20 @@
+{
+	title: "Neanderthal Horticulture",
+	x: -7.0d,
+	y: -2.5d,
+	shape: "hexagon",
+	description: "Fortunately not IC2 Fertilizer",
+	text: [
+		"Fertilizer can be used identically to bonemeal. Usually for speeding up crop growth, you can also use it to generate tall grass when used on grass blocks"
+	],
+	dependencies: [
+		"a83e1958"
+	],
+	tasks: [{
+		uid: "f9fee034",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 1001"
+		}]
+	}]
+}

@@ -36,7 +36,7 @@
 				{
 					"name": "minecraft:stick",
 					"disableJEI": false,
-					"chance": 20
+					"chance": 40
 				}
 			]
 		}

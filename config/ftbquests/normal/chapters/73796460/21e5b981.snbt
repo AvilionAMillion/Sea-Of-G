@@ -1,0 +1,21 @@
+{
+	title: "Biology",
+	x: -6.0d,
+	y: -2.5d,
+	shape: "hexagon",
+	description: "No, this doesn't make sense.",
+	text: [
+		"Make grass by throwing dirt into Nutrient Rich Water"
+	],
+	dependencies: [
+		"dbc67ef2",
+		"a83e1958"
+	],
+	tasks: [{
+		uid: "b6465a5e",
+		type: "item",
+		items: [{
+			item: "minecraft:grass"
+		}]
+	}]
+}

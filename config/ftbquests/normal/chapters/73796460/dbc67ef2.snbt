@@ -1,8 +1,8 @@
 {
 	title: "Making Your First Dirt",
 	icon: "minecraft:dirt",
-	x: -7.0d,
-	y: -2.5d,
+	x: -5.5d,
+	y: -3.5d,
 	shape: "hexagon",
 	description: "Easier than in some packs",
 	text: [

@@ -1,0 +1,27 @@
+{
+	icon: "minecraft:dirt 1 2",
+	x: -7.5d,
+	y: -1.5d,
+	shape: "hexagon",
+	text: [
+		"PODZOL sifting through it just like silt will allow you the possibility of getting sticks."
+	],
+	dependencies: [
+		"7e467f9a",
+		"5c3f3fe1"
+	],
+	tasks: [{
+		uid: "e909f14d",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt 1 2"
+		}]
+	},
+	{
+		uid: "b53e60bf",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	}]
+}

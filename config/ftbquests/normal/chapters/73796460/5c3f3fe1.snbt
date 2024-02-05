@@ -1,0 +1,20 @@
+{
+	x: -6.5d,
+	y: -1.5d,
+	shape: "hexagon",
+	text: [
+		"Make the plant ball. I promise later chapters will be significantly less handholdy",
+		"You can get the seeds for it by breaking tall grass grown by fertilizer when used on grass blocks"
+	],
+	dependencies: [
+		"21e5b981",
+		"41f7da71"
+	],
+	tasks: [{
+		uid: "775b0870",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 439"
+		}]
+	}]
+}
