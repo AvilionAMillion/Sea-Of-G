@@ -6,6 +6,7 @@ item.gregsea.sediment.name=Sediment
 tile.gregsea.siltblock.name=Silt
 
 fluid.gregsea.fertilizerfluid.name=Nutrient Rich Water
+fluid.gregsea.liquiddirt.name=Liquid Dirt
 
 gregtech.machine.strainer.ulv.name=Primitive Straining Machine
 gregtech.machine.strainer.lv.name=Basic Straining Machine

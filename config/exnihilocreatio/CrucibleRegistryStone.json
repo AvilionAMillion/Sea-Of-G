@@ -1,0 +1,10 @@
+{
+  "ore:gravel": {
+    "fluid": "lava",
+    "amount": 100
+  },
+  "ore:cobblestone": {
+    "fluid": "lava",
+    "amount": 125
+  }
+}

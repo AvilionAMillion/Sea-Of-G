@@ -39,7 +39,8 @@ print ("Ore Removal Finished");
 print("Ingot Removal");
 var ingotsDisabled as IItemStack[][IOreDictEntry] = {
 	<ore:ingotOsmium> : [
-	<mekanism:ingot:1>],
+	<mekanism:ingot:1>,
+	<exnihilocreatio:item_ore_osmium:3>],
 	<ore:ingotBronze> : [
 	<mekanism:ingot:2>],
 	<ore:ingotSteel> : [

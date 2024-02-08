@@ -32,3 +32,8 @@ inWorldCrafting.fluidToItem.recipeBuilder()
         .input(item('minecraft:deadbush'), item('gregtech:meta_item_1:439'))
         .output(item('minecraft:sapling'))
         .register()
+
+inWorldCrafting.burning.recipeBuilder()
+    .input(item('exnihilocreatio:block_crucible'))
+    .output(item('exnihilocreatio:block_crucible:1'))
+    .register()
