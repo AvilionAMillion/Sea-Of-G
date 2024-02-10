@@ -27,3 +27,9 @@ crafting.addShaped('plantball', item('gregtech:meta_item_1:439'), [
 crafting.addShaped('deadbush', item('minecraft:deadbush'), [
         [item('minecraft:stick')],
         [item('minecraft:stick')],])
+
+// Whittling Sticks
+crafting.addShaped('whittlingsticks', item('gregsea:whittlingsticks'), [
+        [null, item('minecraft:stick'), null],
+        [item('minecraft:stick'), item('minecraft:stick'), item('minecraft:stick')],
+        [null, item('minecraft:stick'), null]])

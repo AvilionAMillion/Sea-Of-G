@@ -2,6 +2,7 @@ content.createItem('sand').register()
 content.createItem('silt').register()
 content.createItem('sediment').register()
 content.createItem('soil').register()
+content.createItem('whittlingsticks').register()
 
 content.createBlock('siltblock')
         .setHardness(0.1F)
