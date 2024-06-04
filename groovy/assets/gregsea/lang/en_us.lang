@@ -2,11 +2,12 @@ item.gregsea.sand.name=Sand
 item.gregsea.silt.name=Silt
 item.gregsea.soil.name=Soil
 item.gregsea.sediment.name=Sediment
+item.gregsea.whittlingsticks.name=Whittling Sticks
+item.gregsea.mesh1.name=Weak String Mesh
 
 tile.gregsea.siltblock.name=Silt
 
 fluid.gregsea.fertilizerfluid.name=Nutrient Rich Water
-fluid.gregsea.liquiddirt.name=Liquid Dirt
 
 gregtech.machine.strainer.ulv.name=Primitive Straining Machine
 gregtech.machine.strainer.lv.name=Basic Straining Machine

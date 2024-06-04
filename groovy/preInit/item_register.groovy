@@ -3,6 +3,7 @@ content.createItem('silt').register()
 content.createItem('sediment').register()
 content.createItem('soil').register()
 content.createItem('whittlingsticks').register()
+content.createItem('mesh1').register()
 
 content.createBlock('siltblock')
         .setHardness(0.1F)
