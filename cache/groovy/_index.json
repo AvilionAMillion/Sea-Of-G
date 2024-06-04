@@ -5,17 +5,22 @@
     {
       "name": "gregtech",
       "path": "preInit\\gregtech.groovy",
-      "lm": 1717450186297
+      "lm": 1717465791621
     },
     {
       "name": "item_register",
       "path": "preInit\\item_register.groovy",
-      "lm": 1717448842312
+      "lm": 1717521671167
     },
     {
       "name": "strainer_recipes",
       "path": "postInit\\strainer_recipes.groovy",
-      "lm": 1717450783517
+      "lm": 1717465893331
+    },
+    {
+      "name": "crafting_recipes",
+      "path": "postInit\\crafting_recipes.groovy",
+      "lm": 1717521268950
     },
     {
       "name": "inworldcrafting",
@@ -24,11 +29,6 @@
       "inner": [
         "inworldcrafting$_run_closure1"
       ]
-    },
-    {
-      "name": "crafting_recipes",
-      "path": "postInit\\crafting_recipes.groovy",
-      "lm": 1717450815866
     }
   ]
 }

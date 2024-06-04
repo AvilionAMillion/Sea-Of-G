@@ -12,7 +12,7 @@ import gregtech.client.renderer.texture.Textures
 
 import gregtech.common.metatileentities.MetaTileEntities
 
-RecipeMap<SimpleRecipeBuilder> STRAINER_RECIPES = new RecipeMap<>("STRAINER", 2, 6, 1, 0,
+RecipeMap<SimpleRecipeBuilder> STRAINER_RECIPES = new RecipeMap<>("STRAINER", 1, 6, 1, 0,
         new SimpleRecipeBuilder(), false)
         .setProgressBar(GuiTextures.PROGRESS_BAR_SIFT, MoveType.HORIZONTAL)
         .setSound(GTSoundEvents.MOTOR)

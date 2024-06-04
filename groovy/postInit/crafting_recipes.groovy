@@ -49,3 +49,18 @@ crafting.addShaped('mesh', item('gregsea:mesh1'), [
         [item('minecraft:string'), item('minecraft:string'), item('minecraft:string')],
         [item('minecraft:string'), item('minecraft:string'), item('minecraft:string')],
         [item('minecraft:string'), item('minecraft:string'), item('minecraft:string')]])
+
+// Plank Removal
+crafting.remove('gregtech:rubber_planks')
+crafting.remove('gregtech:oak_planks')
+crafting.remove('gregtech:birch_planks')
+crafting.remove('gregtech:spruce_planks')
+crafting.remove('gregtech:jungle_planks')
+crafting.remove('gregtech:acacia_planks')
+crafting.remove('gregtech:dark_oak_planks')
+
+// Crafting Table
+crafting.remove('gregtech:crafting_table')
+crafting.addShaped('crafting_table', item('minecraft:crafting_table'), [
+        [ore('plankWood'), ore('plankWood')],
+        [ore('plankWood'), ore('plankWood')]]);

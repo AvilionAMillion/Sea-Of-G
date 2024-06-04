@@ -1,0 +1,45 @@
+{
+	title: "Crafting Time!",
+	icon: "minecraft:crafting_table",
+	x: -8.0d,
+	y: -0.5d,
+	shape: "hexagon",
+	text: [
+		"With wood now accessible, you can start crafting! But first you'll need some planks, and for that you need a saw. Of which flint is the only one available."
+	],
+	dependencies: [
+		"71dd84b8",
+		"4ce2e3d1"
+	],
+	tasks: [{
+		uid: "7a4b68de",
+		type: "item",
+		items: [{
+			id: "gregtech:saw",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:flint",
+					MaxDurability: 39,
+					Durability: 0,
+					AttackDamage: -1.0f,
+					AttackSpeed: -2.6f,
+					HarvestLevel: 0
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					HarvestIce: 1b
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e160f9aa",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}]
+}

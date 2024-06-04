@@ -1,0 +1,19 @@
+{
+	title: "Neanderthal Blacksmithery",
+	x: -8.5d,
+	y: -1.5d,
+	shape: "hexagon",
+	text: [
+		"Flint is an easy to obtain, yet sturdy material. It can be used to make tools that, while amateur, should be able to hold up."
+	],
+	dependencies: [
+		"7e467f9a"
+	],
+	tasks: [{
+		uid: "d203c497",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}]
+	}]
+}
