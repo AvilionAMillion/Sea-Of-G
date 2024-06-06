@@ -12,6 +12,13 @@ inWorldCrafting.fluidToItem.recipeBuilder()
 // Nutrient Rich Water
 inWorldCrafting.fluidToFluid.recipeBuilder()
         .fluidInput(fluid('water'))
+        .input(item('gregtech:meta_dust:1599') * 2)
+        .fluidOutput(fluid('mineralwater1'))
+        .register()
+
+// Nutrient Rich Water
+inWorldCrafting.fluidToFluid.recipeBuilder()
+        .fluidInput(fluid('water'))
         .input(item('minecraft:sand') * 2, item('gregsea:siltblock'), item('minecraft:clay_ball'))
         .fluidOutput(fluid('fertilizerfluid'))
         .register()
@@ -30,6 +37,8 @@ inWorldCrafting.fluidToItem.recipeBuilder()
         .output(item('minecraft:dirt:2'))
         .register()
 
+
+
 // Sapling
 inWorldCrafting.fluidToItem.recipeBuilder()
         .fluidInput(fluid('fertilizerfluid'))
@@ -42,6 +51,12 @@ inWorldCrafting.burning.recipeBuilder()
     .input(item('exnihilocreatio:block_crucible'))
     .output(item('exnihilocreatio:block_crucible:1'))
     .register()
+
+// Clay Bucket
+inWorldCrafting.burning.recipeBuilder()
+        .input(item('claybucket:unfiredclaybucket'))
+        .output(item('claybucket:claybucket'))
+        .register()
 
 // Whittling Stick Creating Fire
 eventManager.listen( { RightClickBlock event ->

@@ -1,0 +1,27 @@
+{
+	title: "Straining, Continued",
+	icon: "gregsea:mesh1",
+	x: -6.5d,
+	y: 0.5d,
+	shape: "hexagon",
+	text: [
+		"Craft a Weak String Mesh and use it to get calcium dust and flint dust from a strainer."
+	],
+	dependencies: [
+		"444934c9"
+	],
+	tasks: [{
+		uid: "d8babbb5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_tiny 1 16"
+		}]
+	},
+	{
+		uid: "fbe5c06c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_small 1 2049"
+		}]
+	}]
+}

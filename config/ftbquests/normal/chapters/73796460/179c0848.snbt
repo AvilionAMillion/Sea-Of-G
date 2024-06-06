@@ -1,0 +1,19 @@
+{
+	title: "The Stone Age",
+	x: -6.0d,
+	y: 1.5d,
+	shape: "hexagon",
+	text: [
+		"Lava and water to make a cobblestone generator, you've done this before."
+	],
+	dependencies: [
+		"c7e236df"
+	],
+	tasks: [{
+		uid: "92bd0ca4",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}]
+	}]
+}

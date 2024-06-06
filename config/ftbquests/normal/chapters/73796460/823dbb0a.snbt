@@ -1,0 +1,19 @@
+{
+	title: "Tier 0 Forming",
+	x: -8.0d,
+	y: 1.5d,
+	shape: "hexagon",
+	text: [
+		"Make a brick wooden form, this is used for both porcelain bricks and coke oven bricks."
+	],
+	dependencies: [
+		"2d290856"
+	],
+	tasks: [{
+		uid: "908914b3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 348"
+		}]
+	}]
+}

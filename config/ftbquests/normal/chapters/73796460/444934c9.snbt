@@ -1,0 +1,22 @@
+{
+	title: "Getting String",
+	icon: "exnihilocreatio:item_material 1 2",
+	x: -7.5d,
+	y: 0.5d,
+	shape: "hexagon",
+	text: [
+		"Your next objective will be to get a reliable source of cobblestone, to start you will need to gather string for a Weak String Mesh.",
+		"To get string, you must use silkworms on a tree's leaves, and to get silkworms you must break leaves with a crook."
+	],
+	dependencies: [
+		"7d94d63c"
+	],
+	tasks: [{
+		uid: "4cf0f08c",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}],
+		count: 16L
+	}]
+}

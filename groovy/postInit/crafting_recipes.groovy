@@ -41,8 +41,11 @@ crafting.addShapeless('flint', item('minecraft:flint'), [
 
 // Bone Meal
 crafting.addShapeless('bonemeal', item('minecraft:dye:15'), [
-        item('gregtech:meta_dust_tiny:16'), item('gregtech:meta_item_1:1001')]
-)
+        item('gregtech:meta_dust_tiny:16'), item('gregtech:meta_item_1:1001')])
+
+// Sapling to Sticks
+crafting.addShapeless('stick-sapling', item('minecraft:stick') * 2, [
+        ore('treeSapling')])
 
 // String Mesh
 crafting.addShaped('mesh', item('gregsea:mesh1'), [
@@ -59,8 +62,22 @@ crafting.remove('gregtech:jungle_planks')
 crafting.remove('gregtech:acacia_planks')
 crafting.remove('gregtech:dark_oak_planks')
 
-// Crafting Table
-crafting.remove('gregtech:crafting_table')
-crafting.addShaped('crafting_table', item('minecraft:crafting_table'), [
-        [ore('plankWood'), ore('plankWood')],
-        [ore('plankWood'), ore('plankWood')]]);
+// Porcelain Brick
+crafting.addShapeless('porcelainbrick', item('gregsea:porcelainbrick'), [
+        item('exnihilocreatio:item_material:1'), item('gregtech:meta_item_1:348')])
+
+// Crucible
+crafting.remove('exnihilocreatio:block_crucible_0')
+crafting.addShaped('unfiredcrucible', item('exnihilocreatio:block_crucible'), [
+        [item('gregsea:porcelainbrick'), null, item('gregsea:porcelainbrick')],
+        [item('gregsea:porcelainbrick'), null, item('gregsea:porcelainbrick')],
+        [item('gregsea:porcelainbrick'), item('gregsea:porcelainbrick'), item('gregsea:porcelainbrick')]])
+
+// Coarse Dirt
+crafting.addShaped('coarsedirt', item('minecraft:dirt:1'), [
+        [item('minecraft:dirt'), item('minecraft:gravel')],
+        [item('minecraft:gravel'), item('minecraft:dirt')]])
+
+// Small Stone Dust
+crafting.addShapeless('smallstone', item('gregtech:meta_dust_small:1599'), [
+        item('gregtech:mortar'), item('minecraft:cobblestone')])

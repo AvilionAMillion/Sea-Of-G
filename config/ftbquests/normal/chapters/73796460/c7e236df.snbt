@@ -1,0 +1,22 @@
+{
+	title: "Getting Lava",
+	x: -7.0d,
+	y: 1.5d,
+	shape: "hexagon",
+	text: [
+		"With Calcium obtained, you can combine it with fertilizer to get bone meal. You can then further combine it to get porcelain clay which you can press with the mold to make bricks.",
+		"An unfired crucible can then be thrown into a fire, which can be started through whittling sticks, to obtain a fired crucible",
+		"Finally, start a fire underneath a fully fired crucible and start melting gravel in it to get lava. You can use clay buckets (which you can fire the same way as the crucible) to move it."
+	],
+	dependencies: [
+		"4bd31b2b",
+		"823dbb0a"
+	],
+	tasks: [{
+		uid: "0be0207d",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_crucible 1 1"
+		}]
+	}]
+}

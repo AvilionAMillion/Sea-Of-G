@@ -1,0 +1,84 @@
+{
+	title: "Other Flint Tools",
+	icon: {
+		id: "gregtech:axe",
+		tag: {
+			DisallowContainerItem: 0b,
+			GT.Tool: {
+				Material: "gregtech:flint",
+				MaxDurability: 39,
+				Durability: 0,
+				ToolSpeed: 2.0f,
+				HarvestLevel: 0,
+				AttackDamage: 5.0f,
+				AttackSpeed: -3.2f
+			},
+			HideFlags: 2,
+			GT.Behaviours: {
+				DisableShields: 1b,
+				TreeFelling: 1b
+			}
+		}
+	},
+	x: -8.5d,
+	y: 0.5d,
+	shape: "hexagon",
+	text: [
+		"Make some more flint tools! The Axe can fell trees in one swoop and the knife is required for some crafting recipes later."
+	],
+	dependencies: [
+		"7d94d63c"
+	],
+	tasks: [{
+		uid: "2cba6cc3",
+		type: "item",
+		items: [{
+			id: "gregtech:axe",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:flint",
+					MaxDurability: 39,
+					Durability: 0,
+					ToolSpeed: 2.0f,
+					HarvestLevel: 0,
+					AttackDamage: 5.0f,
+					AttackSpeed: -3.2f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					DisableShields: 1b,
+					TreeFelling: 1b
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "142b8205",
+		type: "item",
+		items: [{
+			id: "gregtech:knife",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:flint",
+					MaxDurability: 39,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: 3.0f,
+					HarvestLevel: 0
+				},
+				HideFlags: 2,
+				ench: [{
+					id: -1s,
+					lvl: 2s
+				}],
+				GT.Behaviours: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

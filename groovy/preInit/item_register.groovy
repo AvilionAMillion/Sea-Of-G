@@ -5,6 +5,7 @@ content.createItem('soil').register()
 content.createItem('whittlingsticks').register()
 content.createItem('mesh1').register()
 content.createItem('mesh2').register()
+content.createItem('porcelainbrick').register()
 
 content.createBlock('siltblock')
         .setHardness(0.1F)
